@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(135deg, #ffcb05, #3b4cca);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.titlePoki {
+    font-size: 2.5em;
+    color: #ff0000;
+    text-shadow: 2px 2px #ffffff;
+    margin: 0;
+}
+
+.text-poki {
+    font-size: 1.2em;
+    color: #3b4cca;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #3b4cca;
+}
+
+.input-poki {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.botton-poki {
+    margin-top: 10px;
+    width: 60%;
+    padding: 12px;
+    font-size: 1.1em;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botton-poki:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}

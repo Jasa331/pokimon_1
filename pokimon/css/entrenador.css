@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(135deg, #ffcb05, #3b4cca);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px;
+}
+
+fieldset {
+    border: 3px solid #3b4cca;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+legend h1 {
+    font-size: 1.8em;
+    color: #ff0000;
+    text-shadow: 1px 1px #fff;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+    color: #3b4cca;
+    display: block;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.opciones button {
+    width: 45%;
+    padding: 12px;
+    font-size: 1.1em;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.opciones button:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+    .opciones button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
